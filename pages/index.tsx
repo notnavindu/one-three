@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "@next/font/google";
 import styles from "../styles/Home.module.css";
+import Card from "../components/common/Card";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,66 +21,19 @@ export default function Home() {
         <div className="opacity-50">thirteen three.js experiments</div>
 
         <div className="w-full max-w-7xl m-auto grid grid-cols-1 lg:grid-cols-2 p-8 gap-8">
-          <div className="bg-zinc-900 w-full h-56 flex items-center justify-center flex-col">
-            <div className="text-4xl">one</div>
-            <div className="opacity-50">coming soon</div>
-          </div>
-
-          <div className="bg-zinc-900 w-full h-56 flex items-center justify-center flex-col">
-            <div className="text-4xl">two</div>
-            <div className="opacity-50">coming soon</div>
-          </div>
-
-          <div className="bg-zinc-900 w-full h-56 flex items-center justify-center flex-col">
-            <div className="text-4xl">three</div>
-            <div className="opacity-50">coming soon</div>
-          </div>
-          <div className="bg-zinc-900 w-full h-56 flex items-center justify-center flex-col">
-            <div className="text-4xl">four</div>
-            <div className="opacity-50">coming soon</div>
-          </div>
-
-          <div className="bg-zinc-900 w-full h-56 flex items-center justify-center flex-col">
-            <div className="text-4xl">five</div>
-            <div className="opacity-50">coming soon</div>
-          </div>
-          <div className="bg-zinc-900 w-full h-56 flex items-center justify-center flex-col">
-            <div className="text-4xl">six</div>
-            <div className="opacity-50">coming soon</div>
-          </div>
-          <div className="bg-zinc-900 w-full h-56 flex items-center justify-center flex-col">
-            <div className="text-4xl">seven</div>
-            <div className="opacity-50">coming soon</div>
-          </div>
-          <div className="bg-zinc-900 w-full h-56 flex items-center justify-center flex-col">
-            <div className="text-4xl">eight</div>
-            <div className="opacity-50">coming soon</div>
-          </div>
-
-          <div className="bg-zinc-900 w-full h-56 flex items-center justify-center flex-col">
-            <div className="text-4xl">nine</div>
-            <div className="opacity-50">coming soon</div>
-          </div>
-
-          <div className="bg-zinc-900 w-full h-56 flex items-center justify-center flex-col">
-            <div className="text-4xl">ten</div>
-            <div className="opacity-50">coming soon</div>
-          </div>
-
-          <div className="bg-zinc-900 w-full h-56 flex items-center justify-center flex-col">
-            <div className="text-4xl">eleven</div>
-            <div className="opacity-50">coming soon</div>
-          </div>
-
-          <div className="bg-zinc-900 w-full h-56 flex items-center justify-center flex-col">
-            <div className="text-4xl">twelve</div>
-            <div className="opacity-50">coming soon</div>
-          </div>
-
-          <div className="bg-zinc-900 w-full h-56 flex items-center justify-center flex-col">
-            <div className="text-4xl">thirteen</div>
-            <div className="opacity-50">coming soon</div>
-          </div>
+          <Card title="one" />
+          <Card title="two" />
+          <Card title="three" />
+          <Card title="four" />
+          <Card title="five" />
+          <Card title="six" />
+          <Card title="seven" />
+          <Card title="eight" />
+          <Card title="nine" />
+          <Card title="ten" />
+          <Card title="eleven" />
+          <Card title="twelve" />
+          <Card title="thirteen" />
         </div>
       </main>
     </>
